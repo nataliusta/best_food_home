@@ -1,0 +1,14 @@
+.button {
+  display: block;
+  padding: 10px 44px;
+  font-family: $main-regular-font;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: $color-white;
+  background-color: $color-orange-150;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
