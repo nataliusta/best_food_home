@@ -1,0 +1,9 @@
+.logo__icon {
+  width: 45px;
+  height: 31px;
+
+  @media (min-width: $desktop-width) {
+    width: 100px;
+    height: 68px;
+  }
+}

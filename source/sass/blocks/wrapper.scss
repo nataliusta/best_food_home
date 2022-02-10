@@ -1,9 +1,9 @@
 .wrapper {
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 15px;
 
   @media (min-width: $desktop-width) {
-    padding: 0 110px;
+    padding: 0 165px;
     max-width: $desktop-width;
   }
 }
