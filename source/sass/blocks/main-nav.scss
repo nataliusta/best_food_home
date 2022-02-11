@@ -47,3 +47,55 @@
     display: none;
   }
 }
+
+@media (max-width: $mobile-width-only) {
+  .main-nav--opened .main-nav__wrapper {
+    position: absolute;
+    top: 25px;
+    right: -18px;
+    left: -20px;
+    z-index: 2;
+    padding: 0;
+    margin: 0 -15px;
+    min-height: 200px;
+    background-color: $color-orange-100;
+  }
+}
+
+.main-nav--nojs .main-nav__toggle {
+  display: none;
+}
+
+.main-nav--nojs .main-nav__wrapper {
+  position: static;
+  padding: 0;
+}
+
+.main-nav--nojs .site-list__item {
+  display: block;
+}
+
+.main-nav--opened .main-nav__toggle {
+  top: -34px;
+  right: -7px;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    width: 30px;
+    height: 2px;
+    background-color: $color-orange-150;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+    box-shadow: none;
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+}
