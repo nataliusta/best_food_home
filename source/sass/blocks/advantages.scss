@@ -1,0 +1,25 @@
+.advantages__list {
+  margin-top: -100px;
+  padding: 0;
+  list-style: none;
+}
+
+.advantages__item {
+  position: relative;
+  margin-bottom: 15px;
+  padding: 120px 35px 13px 35px;
+  text-align: center;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+  background-color: $color-white;
+
+  &::before {
+    position: absolute;
+    top: 35px;
+    right: 100px;
+    content: "";
+    background-image: url("/img/icons/bowl.svg");
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 80px;
+  }
+}
