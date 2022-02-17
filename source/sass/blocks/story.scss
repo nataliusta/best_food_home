@@ -1,0 +1,46 @@
+.story__wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.story__heading {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 80px 30px 0 30px;
+  font-family: $added-regular-font;
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: 400;
+}
+
+.story__heading span {
+  text-transform: capitalize;
+  color: $color-orange-250;
+}
+
+.story__text {
+  margin: 0;
+  margin-bottom: 90px;
+  line-height: 22px;
+  color: $color-grey-200;
+}
+
+.story__list {
+  margin: 0;
+  padding: 0;
+}
+
+.story__pictures {
+  position: relative;
+  text-align: center;
+
+  &::before {
+    position: absolute;
+    top: 170px;
+    right: 20px;
+    content: "";
+    width: 114px;
+    height: 85px;
+    background-color: $color-orange-300;
+  }
+}

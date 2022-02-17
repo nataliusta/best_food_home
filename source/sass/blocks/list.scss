@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  text-align: center;
+}
+
+.list__description {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.list__number {
+  font-size: 40px;
+  line-height: 54px;
+  color: $color-orange-200;
+}
